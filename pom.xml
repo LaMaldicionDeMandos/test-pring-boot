@@ -17,7 +17,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring.boot.version}</version>
                 <executions>
-                	<execution>
+                	<execution>e
                 		<goals>
                 			<goal>repackage</goal>
                 		</goals>
@@ -58,5 +58,6 @@
     </dependencies>
 	<modules>
 		<module>hello</module>
+		<module>componentScan</module>
 	</modules>
 </project>
