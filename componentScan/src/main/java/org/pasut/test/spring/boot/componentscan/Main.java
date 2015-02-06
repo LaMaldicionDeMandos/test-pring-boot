@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 //Todas las annotations comentadas, estan incluidas en la annotation que no está comentada
 @RestController
 //@Configuration
-//@EnableAutoConfiguration
+//@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
 //@ComponentScan
 @SpringBootApplication
 public class Main {

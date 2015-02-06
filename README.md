@@ -45,4 +45,4 @@ Lista de starters:
 * undertow: alternativo a tomcat
 
 Component Scan
-Detecta automaticamente todos los componenetes (classes con las annotations: @Componenet, @Service, @Repository, @Controller), tiene que usarse junto con @Autowired
+Detecta automaticamente todos los componenetes (classes con las annotations: @Componenet, @Service, @Repository, @Controller, @Configuration), tiene que usarse junto con @Autowired
