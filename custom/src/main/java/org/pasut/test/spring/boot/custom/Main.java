@@ -1,4 +1,4 @@
-package org.pasut.test.spring.boot.helloworld;
+package org.pasut.test.spring.boot.custom;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
