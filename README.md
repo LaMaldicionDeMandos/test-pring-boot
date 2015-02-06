@@ -37,3 +37,9 @@ Lista de starters:
 * web:
 * websocket:
 * ws:
+* remote-shell: soporte para ssg shell
+* jetty: alternativa a tomcat
+* log4j: soporte para log4j
+* logging:
+* tomcat: existe por default, no hace falta agregarlo
+* undertow: alternativo a tomcat
