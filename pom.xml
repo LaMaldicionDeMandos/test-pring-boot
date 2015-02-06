@@ -59,5 +59,6 @@
 	<modules>
 		<module>hello</module>
 		<module>componentScan</module>
+		<module>custom</module>
 	</modules>
 </project>
