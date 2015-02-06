@@ -17,7 +17,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring.boot.version}</version>
                 <executions>
-                	<execution>e
+                	<execution>
                 		<goals>
                 			<goal>repackage</goal>
                 		</goals>
