@@ -6,15 +6,6 @@
     <artifactId>profiling</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
-    <profiles>
-    	<profile>
-    		<id>developer</id>
-    	</profile>
-    	<profile>
-    		<id>production</id>
-    	</profile>
-    </profiles>
-
     <parent>
         <groupId>org.pasut.test.spring.boot</groupId>
         <artifactId>properties-parent</artifactId>
