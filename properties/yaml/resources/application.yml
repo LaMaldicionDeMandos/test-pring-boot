@@ -1,0 +1,10 @@
+property: "Ambiente: ${ambiente}"
+ambiente: Default
+---
+spring:
+    profiles: developer
+ambiente: Developer
+---
+spring:
+    profiles: production
+ambiente: Production
