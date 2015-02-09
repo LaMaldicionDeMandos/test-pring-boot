@@ -1,0 +1,4 @@
+bean:
+    name: Spring!!
+    hello: Hello
+---
