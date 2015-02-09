@@ -62,5 +62,6 @@
 		<module>custom</module>
 		<module>properties</module>
         <module>profiling</module>
+        <module>logging</module>
 	</modules>
 </project>
