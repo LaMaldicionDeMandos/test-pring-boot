@@ -61,5 +61,6 @@
 		<module>componentScan</module>
 		<module>custom</module>
 		<module>properties</module>
+        <module>profiling</module>
 	</modules>
 </project>
