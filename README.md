@@ -46,3 +46,6 @@ Lista de starters:
 
 Component Scan
 Detecta automaticamente todos los componenetes (classes con las annotations: @Componenet, @Service, @Repository, @Controller, @Configuration), tiene que usarse junto con @Autowired
+
+
+Profiling, para elegir ambiente, al correr la app, le tengo que pasar la variable -Dspring.profiles.active={profile}
