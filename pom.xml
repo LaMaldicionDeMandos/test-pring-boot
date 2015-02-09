@@ -63,5 +63,6 @@
 		<module>properties</module>
         <module>profiling</module>
         <module>logging</module>
+        <module>web</module>
 	</modules>
 </project>
