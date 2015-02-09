@@ -3,19 +3,19 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>web-parent</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>jax-rs-style</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <parent>
         <groupId>org.pasut.test.spring.boot</groupId>
-        <artifactId>boot-parent</artifactId>
+        <artifactId>web-parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
-
-    <modules>
-        <module>simple</module>
-        <module>static</module>
-        <module>jax-rs-style</module>
-    </modules>
+    
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jersey</artifactId>
+        </dependency>
+    </dependencies>
 </project>
