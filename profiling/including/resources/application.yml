@@ -1,0 +1,13 @@
+spring:
+  profiles: developer
+  profiles.include: dev
+ambiente: desarrollo
+---
+spring:
+  profiles: production
+ambiente: produccion
+name: Prod
+---
+spring:
+  profiles: dev
+name: Dev
